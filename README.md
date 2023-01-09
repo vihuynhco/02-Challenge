@@ -11,10 +11,10 @@
 > - My site has a resposive layout to adapt to my viewporpt.
 
 Link to github repository:
->https://github.com/vihuynhco/02_Challenge.git
+>https://github.com/vihuynhco/02-Challenge.git
 
 Link to deployed location:
->https://vihuynhco.github.io/02_Challenge/
+>https://vihuynhco.github.io/02-Challenge/
 
 Image of portfolio:
 
