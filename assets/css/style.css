@@ -1,0 +1,191 @@
+/*
+#F2D7D9
+#D3CEDF
+#9CB4CC
+#748DA6
+*/
+
+* { 
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+/* Default setting for my entire page */
+body {
+    background: #9cB4cc;
+    flex-wrap: wrap;
+
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #748DA6;
+    color: #F2D7D9;
+    padding: 20px;
+  
+}
+
+header h1 {
+    font-size: 55px;
+    display: inline-block;
+}
+
+header ul,
+section ul
+{
+    list-style: none ;
+}
+
+
+
+.navlink,
+.contactinfo {
+    display: inline-block;
+    padding: 10px;
+  
+}
+
+
+header div {
+    padding-top: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    float: right;
+    
+}
+
+/* styling hypperlinks in my directory, behaviour will be the same for all */
+a {
+    color: #F2D7D9;
+    text-decoration: solid;
+}
+
+
+
+
+/* how I want the properties to change by the hover action */
+div ul li a:hover {
+    color: white; /*the font size will increase when hovered over*/
+    text-decoration: underline;
+    
+}
+
+/* class main-photo, on background*/
+.main-photo  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+
+}
+
+/* container for about me section*/
+
+.directory {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #748DA6;
+
+}
+
+
+#ABOUTME,
+#MYWORK,
+#contact_me
+ {
+
+    padding: 5%;
+    display:flex;
+
+}
+
+
+.about-me,.projects,.Contact
+{
+
+    border-right: 5px solid #9cB4cc;
+    text-align: right;
+    padding: 1%;
+  
+}
+
+
+
+.subheader{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 40px;
+    color: #F2D7D9;
+    width: 250px;
+    
+}
+
+/*avatar image*/
+.image {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+  }
+
+
+.project_name  {
+    font-size: 30px;
+    color: #9CB4CC;
+ 
+}
+
+
+
+.project_image {
+    display: flex;
+    max-height: 400px;
+    width: 100%;
+
+}
+
+p {
+    padding: 1%;
+    font-size: 25px;
+    color:  #F2D7D9;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-description {
+    flex: 4;    
+    background-color: #748DA6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work {
+    padding: 1%;
+    border: 5px solid #9cB4cc;
+    flex: 0 0 400px;
+}
+
+
+.work header {
+    padding: 5%; 
+    font-size: 35px;
+    text-align: center;
+}
+
+.work:hover {
+    background-color:rgb(24, 30, 90);
+}
+
+.contact-description a {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+   display: inline-flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 10px;
+   font-size: 30px;
+}
